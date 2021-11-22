@@ -65,9 +65,9 @@ body {
 
 .container h1 {
   font-family: 'Inter', sans-serif;
-  font-size: 6.5vw;
+  font-size: 7.5vw;
   color: var(--white);
-  margin: 5vw 7vw;
+  margin: 5vw;
   text-align: center;
 }
 
