@@ -1,3 +1,30 @@
+@charset "UTF-8";
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*-----------------------------------------*/
+/*
+Posicionamiento --> static, absolute, relative, fixed
+Modelo de caja (Box model) --> margin, border, padding, content
+Tipografía --> tipos, tamaños de fuente, etc
+Estilos visuales --> box-shadow, border-radius, gradient, etc
+Otros --> reglas CSS y más
+*/
+:root {
+  --white: hsl(0, 0%, 100%);
+  --white-paragraph: hsla(0, 0%, 100%, 0.75);
+  --white-stat: hsla(0, 0%, 100%, 0.6);
+  --dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +32,99 @@
           box-sizing: border-box;
 }
 
-html, body {
+html {
+  font-size: 62.5%;
+}
+
+body {
   height: 100%;
+}
+
+body {
+  background-color: var(--dark-blue);
+}
+
+/*----------------------------*/
+.container {
+  width: 90%;
+  min-width: calc(0.9*320px);
+  height: auto;
+  background-color: var(--dark-desaturated-blue);
+  margin: 10% auto;
+  border-radius: 2vw;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  border-radius: 2vw 2vw 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 6.5vw;
+  color: var(--white);
+  margin: 5vw 7vw;
+  text-align: center;
+}
+
+.container h1 span {
+  color: var(--soft-violet);
+}
+
+.container .info {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4.7vw;
+  text-align: center;
+  margin: 5vw 1vw;
+  color: var(--white-stat);
+}
+
+.container .data {
+  font-family: 'INTER', sans-serif;
+}
+
+.container .data .data-first {
+  text-align: center;
+  margin: 45px 0 25px 0;
+}
+
+.container .data .data-second {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.container .data .data-third {
+  text-align: center;
+  margin: 25px 0;
+  padding-bottom: 6vw;
+}
+
+.container .data .big-p {
+  font-family: 'INTER', sans-serif;
+  font-weight: bold;
+  font-size: 6vw;
+  color: var(--white);
+}
+
+.container .data .small-p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 4vw;
+  color: var(--white-stat);
+}
+
+.attribution {
+  margin: 0 auto;
+  padding-bottom: 5vw;
+  color: var(--white);
+  text-align: center;
+  font-size: 2vw;
+}
+
+.attribution a {
+  font-weight: bold;
 }
 /*# sourceMappingURL=styles.css.map */

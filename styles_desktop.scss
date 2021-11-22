@@ -1,0 +1,85 @@
+.container{
+    width: 90%;
+    min-width: calc(0.9*320px);
+    max-width: 2000px;
+    height: auto;
+    background-color: var(--dark-desaturated-blue);
+    margin: 5% auto;
+    border-radius: 1vw;
+    display: flex;
+    
+    .card-info{
+        width: 55%;
+    }
+    img{
+        width: 45%;
+        height: auto;
+        border-radius: 0 1vw 1vw 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        order: 2;
+        
+    }
+    h1{
+        font-family: 'Inter', sans-serif;
+        font-size: 3.5vw;
+        color: var(--white);
+        margin: 4vw 3vw 2vw 3vw;
+        text-align: center;
+
+        span{
+            color: var(--soft-violet);
+        }
+    }
+    .info{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.7vw;
+        text-align: center;
+        margin: 2vw 3vw;
+        color: var(--white-stat);
+    }
+
+    .data{
+        font-family: 'INTER', sans-serif;
+        display: flex;
+
+        .data-first{
+            text-align: center;
+            margin: 3vw;
+            margin-left: 10vw;
+        }
+        .data-second{
+            text-align: center;
+            margin: 3vw;
+        }
+        .data-third{
+            text-align: center;
+            margin: 3vw;
+            padding-bottom: 0;
+        }
+
+        .big-p{
+            font-family: 'INTER', sans-serif;
+            font-weight: bold;
+            font-size: 1.5vw;
+            color: var(--white);
+        }
+        .small-p{
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 1vw;
+            color: var(--white-stat);
+        }
+    }
+}
+
+.attribution{
+    margin: 0 auto;
+    padding-bottom: 0;
+    color: var(--white);
+    font-size: 1vw;
+
+    a{
+        font-weight: bold;
+    }
+}
