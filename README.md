@@ -12,8 +12,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/martinsideas/frontend-stats-preview-card-component](Github)
-- Live Site URL: [](Netlify)
+- Solution URL: [Github](https://github.com/martinsideas/frontend-stats-preview-card-component)
+- Live Site URL: [Netlify](https://stoic-mcclintock-9da82a.netlify.app/)
 
 ## My process
 
